@@ -1,0 +1,87 @@
+body{
+    background-color: #f7d1cd;
+}
+
+
+h2{
+   text-align: center;
+   color: black;
+}
+p{
+    font-size: 20px;
+    color: black;
+    border:5px solid #735d78 ;
+    padding: 15px;
+    width: 900px;
+    margin: 20px 150px;
+    text-align: center;
+    border-radius: 20px;
+    border-right:10px springgreen;
+    line-height: 40px;
+    animation-name: pp;
+    animation-duration: 2s;
+}
+
+.m{
+    background-color: #735d78;
+    font-size: 25px;
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid #735d78;
+    border-radius: 20px;
+}
+.mo{
+    background-color: #735d78;
+    font-size: 25px;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    border: 1px solid #735d78;
+    border-radius: 20px;
+
+}
+img{
+    margin: 50px;
+}
+.one{
+    margin: 50px 350px;
+}
+.in{
+    text-align: center;
+    background-color: #735d78;
+    padding: 20px;
+    border: 2px solid #735d78;
+    border-radius: 20px;
+    font-size: 20px;
+    animation-name: footer;
+    transition-property: all;
+    transition-duration: 4s ;
+        
+}
+.in:hover{
+    background: #0c3f0100;
+    border-radius: 50px;
+}
+
+
+@keyframes footer{
+    
+    0%{left: -50px;}
+    100%{left:200px ;}
+}
+
+@keyframes pp {
+    0%{left: -500px;}
+    50%{left: -250px;}
+    100%{left: 0px;}
+}
+h1{
+    background-color: #735d78;
+    padding: 20px 0px;
+    text-align: center;
+    border: 5px solid #735d78;
+    border-radius: 30px;
+    font-size: 40px;
+    animation: heading;
+    animation-duration: 2s;
+}
+
